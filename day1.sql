@@ -130,10 +130,7 @@
 -- WHERE email like '%bishop%'
 -- GROUP BY email
 
-SELECT film_id, COUNT(film_id)
-FROM inventory
-GROUP BY film_id
-ORDER BY COUNT(film_id), desc;
+
 
 
 
